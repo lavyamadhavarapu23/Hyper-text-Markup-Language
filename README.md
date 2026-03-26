@@ -24,3 +24,33 @@ Created by Lavya
 Name: Lavya
 Course: B.Tech
 Learning: HTML
+
+
+ORDERED LIST
+HTML code to print student details in an ordered list:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details</title>
+</head>
+<body>
+
+    <h2>Student Details</h2>
+
+    <ol>
+        <li>Name: Lavya</li>
+        <li>Roll No: 101</li>
+        <li>Course: B.Tech</li>
+        <li>Department: CSE</li>
+        <li>Year: 3rd Year</li>
+    </ol>
+
+</body>
+</html>
+Output:
+
+Name: Lavya
+Roll No: 24P32A4210
+Course: B.Tech
+Department: CSE(AI&ML)
+Year: 2nd Year
