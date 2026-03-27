@@ -54,3 +54,32 @@ Roll No: 24P32A4210
 Course: B.Tech
 Department: CSE(AI&ML)
 Year: 2nd Year
+
+
+UNORDERED LIST
+CODE:
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unordered List Example</title>
+</head>
+<body>
+
+    <h1>My Hobbies</h1>
+
+    <ul>
+        <li>Reading</li>
+        <li>Coding</li>
+        <li>Music</li>
+        <li>Traveling</li>
+    </ul>
+
+</body>
+</html>
+OUTPUT:
+
+My Hobbies
+• Reading
+• Coding
+• Music
+• Traveling
