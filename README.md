@@ -83,3 +83,63 @@ My Hobbies
 • Coding
 • Music
 • Traveling
+
+HTML CODE FOR A WORKING TABLE
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Student Details Table</h2>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Course</th>
+    </tr>
+    <tr>
+        <td>101</td>
+        <td>Lavya</td>
+        <td>CSE</td>
+    </tr>
+    <tr>
+        <td>102</td>
+        <td>Rahul</td>
+        <td>ECE</td>
+    </tr>
+    <tr>
+        <td>103</td>
+        <td>Anjali</td>
+        <td>IT</td>
+    </tr>
+</table>
+
+</body>
+</html>
+OUTPUT:
+Student Details Table
+
++-----+--------+--------+
+| ID  | Name   | Course |
++-----+--------+--------+
+| 101 | Lavya  | CSE    |
+| 102 | Rahul  | ECE    |
+| 103 | Anjali | IT     |
++-----+--------+--------+
