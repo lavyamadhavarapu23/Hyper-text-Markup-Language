@@ -143,3 +143,48 @@ Student Details Table
 | 102 | Rahul  | ECE    |
 | 103 | Anjali | IT     |
 +-----+--------+--------+
+HTML webpage using only basic HTML and a little CSS
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Web Page</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightblue;
+            text-align: center;
+        }
+
+        h1 {
+            color: darkblue;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: blue;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to My Website</h1>
+
+    <p>This is my first web page using HTML.</p>
+
+    <img src="https://via.placeholder.com/300"
+         alt="Sample Image">
+
+    <br><br>
+
+    <button>Click Me</button>
+
+</body>
+</html>
